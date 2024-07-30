@@ -7,12 +7,13 @@ For more details on the API and how to get an API key see https://www.simplypost
 
 For easy web integration, we also offer "SimplyCompleteAI Address Finder" https://www.simplypostcode.com/address-finder-for-web-site , which can be added to any site using online code.
 
-# The basic principle is as follows.   
+## The basic principle is as follows.   
 
 The following text was used with Chat GPT to create the basic example and could be used to create in different languages/platforms etc.
 
-# Chat GPT Question 
+### Chat GPT Question 
 
+```
 In c#, .net 4.8 Windows app, I need to add to a text box "textBoxFind" to perform a search, which calls an API given at https://api.simplylookupadmin.co.uk.   
 
 I would suggest on key up event, of this textbox, if stopped typing for 300 ms call
@@ -96,3 +97,7 @@ the API call full_v3/getselectedaddress   will return json
 }
 
 Then, put the returned address fields "organisation,line1,line2,line3,town,county,postcode,country,found,licenseStatus" into a multiline textbox called "textBoxAddress."  
+```
+
+
+
